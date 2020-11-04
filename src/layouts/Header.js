@@ -1,8 +1,9 @@
 import { ReactComponent as Logo } from '../assets/images/logo.svg';
 import {Col, Container, Row} from "reactstrap";
 import React from "react";
+import Menu from "./Menu";
 
-function Header() {
+function Header({currentMenuItem, setCurrentMenuItem}) {
 
     return  <div className='header menu-item align-items-center' >
         <Container>
@@ -10,12 +11,8 @@ function Header() {
                 <Col>
                     <Logo />
                 </Col>
-                <Col className='d-none d-sm-block col-auto'>
-                    <a href="/contact">Contact</a>
-                </Col>
-                <Col className='d-none d-sm-block col-auto'>
-                    <a href="/submission">Submission</a>
-                </Col>
+
+                <Menu currentMenuItem={currentMenuItem} setCurrentMenuItem={setCurrentMenuItem} />
             </Row>
         </Container>
     </div>

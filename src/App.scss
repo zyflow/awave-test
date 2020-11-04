@@ -16,9 +16,20 @@ body {
     font-family: "Roboto Mono";
     color: black;
     text-decoration: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
   }
 
   a:hover {
+    color: black;
+    border-bottom: 3px solid orange;
+    text-decoration: none;
+  }
+
+  a.selected {
     color: black;
     border-bottom: 3px solid orange;
     text-decoration: none;
@@ -27,10 +38,8 @@ body {
 
 .custom-container {
   width: 100%;
-  //background-color: #C4C4C4;
   min-height: 500px;
   padding: 0 !important;
-  border: 1px solid red;
 }
 
 .container {

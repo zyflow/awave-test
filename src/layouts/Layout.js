@@ -1,15 +1,16 @@
 import Header from "./Header";
-import React from "react";
+import React, {useState} from "react";
 import Row from "reactstrap/lib/Row";
 import {Container} from "reactstrap";
 import FormTittle from "../components/FormTittle";
 import QuestionForm from "../components/QuestionForm";
 
 function Layout() {
+    const [currentMenuItem, setCurrentMenuItem] = useState('contact');
 
     return  <div >
         <Row >
-            <Header />
+            <Header currentMenuItem={currentMenuItem} setCurrentMenuItem={setCurrentMenuItem} />
         </Row>
         <Row>
             <Container className="wrapper custom-container-image">
@@ -17,7 +18,6 @@ function Layout() {
                     <FormTittle />
                     <QuestionForm />
                 </div>
-
             </Container>
         </Row>
     </div>

@@ -12,7 +12,6 @@ function QuestionForm() {
     const [message, setMessage] = useState('');
 
     const submit = () => {
-        console.log('submitting data')
         const data = {
             firstName, lastName, email, phoneNumber, message
         }
