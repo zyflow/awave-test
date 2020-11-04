@@ -1,0 +1,41 @@
+.question-list {
+  height: 600px;
+}
+
+.title-block {
+  height: 250px;
+}
+
+.question-header {
+  width: 777px;
+  font-size: 22px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.question {
+  font-family: Roboto Mono;
+  width: 777px;
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .pretext {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1481B9;
+  }
+
+  .question-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+}

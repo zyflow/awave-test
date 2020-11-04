@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/QuestionList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/QuestionList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QuestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/questionServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/questionServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,23 +39,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/scss" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/scss" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/layouts" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -66,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604478492294</updated>
-      <workItem from="1604478493526" duration="20160000" />
+      <workItem from="1604478493526" duration="22312000" />
     </task>
     <task id="LOCAL-00001" summary="Initial + layout">
       <created>1604498902382</created>
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604517716877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Backend validation errors.">
+      <created>1604520505839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604520505839</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +115,8 @@
     <MESSAGE value="Initial + layout" />
     <MESSAGE value="Extracted menu, cleanup, work in progress" />
     <MESSAGE value="Cleanup, + front fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup, + front fix" />
+    <MESSAGE value="Backend validation errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend validation errors." />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="183" width="800" height="675" key="#Images" timestamp="1604493762310">
@@ -117,10 +127,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604495588553" />
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604517716784">
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604522647718">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604517716784" />
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604522647718" />
     <state x="182" y="89" width="1536" height="863" key="DiffContextDialog" timestamp="1604500130565">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -129,17 +139,17 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1604478667359" />
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604517718832">
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604520506743">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604517718832" />
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604520506742" />
     <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog" timestamp="1604499032650">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604499032650" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604497446461">
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604520999879">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1604497446461" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1604520999879" />
   </component>
 </project>
