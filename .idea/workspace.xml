@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jolnXIhHr8tddIhWa9eSQZEmFr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/layouts" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="" />
+      <created>1604478492294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604478492294</updated>
+      <workItem from="1604478493526" duration="12020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="183" width="800" height="675" key="#Images" timestamp="1604493762310">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="183" width="800" height="675" key="#Images/0.0.1920.1044@0.0.1920.1044" timestamp="1604493762310" />
+    <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604495588553">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604495588553" />
+    <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl" timestamp="1604478667359">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1604478667359" />
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604498862389">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604498862389" />
+    <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog" timestamp="1604498864533">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604498864533" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604497446461">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1604497446461" />
+  </component>
+</project>
