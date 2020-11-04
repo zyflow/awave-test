@@ -1,0 +1,30 @@
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 1480px;
+  align-items: center;
+
+
+  a {
+    font-family: "Roboto Mono";
+    color: black;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  a:hover {
+    color: black;
+    border-bottom: 3px solid orange;
+    text-decoration: none;
+  }
+
+  a.selected {
+    color: black;
+    border-bottom: 3px solid orange;
+    text-decoration: none;
+  }
+}

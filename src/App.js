@@ -1,8 +1,11 @@
-import './App.css';
+import './assets/scss/App.css';
 import Layout from "./layouts/Layout";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.scss'
+import './assets/scss/App.scss'
+import './assets/scss/Menu.scss'
+import './assets/scss/QuestionForm.scss'
+
 
 function App() {
   return (

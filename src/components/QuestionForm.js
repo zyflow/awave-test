@@ -25,6 +25,7 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='firstName'>First name</Label>
                     <Input name="firstName"
+                           placeholder="First name"
                            onChange={({target}) => {
                                setFirstName(target.value);
                            }}
@@ -35,6 +36,7 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='lastName'>Last name</Label>
                     <Input name="lastName"
+                           placeholder="Last name"
                            onChange={({target}) => {
                                setLastName(target.value);
                            }}
@@ -46,6 +48,7 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='phone'>Phone number</Label>
                     <Input name="phone"
+                           placeholder="Phone"
                            onChange={({target}) => {
                                setPhoneNumber(target.value);
                            }}
@@ -56,6 +59,7 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='email'>Email</Label>
                     <Input name="email"
+                           placeholder="Email"
                            onChange={({target}) => {
                                setEmail(target.value);
                            }}
@@ -67,6 +71,7 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='message'>Message</Label>
                     <Input type="textarea" name="message" id="message"
+                           placeholder="Message"
                            onChange={({target}) => {
                                setMessage(target.value);
                            }}

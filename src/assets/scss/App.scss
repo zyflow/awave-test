@@ -1,3 +1,50 @@
 body {
-  background-color: red;
+  background-color: #ffffff;
+  font-family: Roboto Mono;
+}
+
+.header {
+  height: 100px;
+  background-color: #FFFF;
+  width: 100%;
+  display: flex;
+  vertical-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.btn-primary {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 20px;
+  border: none;
+  background: linear-gradient(113.73deg, #F4962B 0%, #D417B7 100%);
+  border-radius: 29px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
