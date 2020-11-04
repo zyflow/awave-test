@@ -1,0 +1,103 @@
+body {
+  background-color: #FFFFFF;
+  font-family: Roboto Mono;
+}
+
+.header {
+  height: 100px;
+  background-color: #FFFF;
+  width: 100%;
+  display: flex;
+  vertical-align: center;
+}
+
+.menu-item {
+  a {
+    font-family: "Roboto Mono";
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+    border-bottom: 3px solid orange;
+    text-decoration: none;
+  }
+}
+
+.custom-container {
+  width: 100%;
+  //background-color: #C4C4C4;
+  min-height: 500px;
+  padding: 0 !important;
+  border: 1px solid red;
+}
+
+.container {
+  padding: 0
+}
+
+.form-container {
+  //padding: 120px;
+  background-color: #FFFFFF;
+  font-family: Roboto Mono;
+  padding: 50px;
+}
+
+.custom-container-image {
+  position: relative;
+  background: url('assets/images/wave-reverted.png') no-repeat  center;
+  //background-size: auto;
+  //background-size: cover;
+  background-color: #C4C4C4;
+  background-position: left top;
+}
+
+.content {
+  padding: 80px;
+}
+
+.formTitleContainer {
+  width: 100%;
+  height: 300px;
+}
+
+h1 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.stockMan {
+  background: url('assets/images/stock-man.svg') 0 0 repeat;
+}
+
+#message {
+  height: 200px;
+}
+
+.btn-primary {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 20px;
+  border: none;
+  background: linear-gradient(113.73deg, #F4962B 0%, #D417B7 100%);
+  border-radius: 29px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
