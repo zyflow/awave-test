@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/Menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/QuestionForm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FormTittle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormTittle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/QuestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/questionServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/questionServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604478492294</updated>
-      <workItem from="1604478493526" duration="18092000" />
+      <workItem from="1604478493526" duration="20160000" />
     </task>
     <task id="LOCAL-00001" summary="Initial + layout">
       <created>1604498902382</created>
@@ -93,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604500158492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleanup, + front fix">
+      <created>1604517716877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604517716877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial + layout" />
     <MESSAGE value="Extracted menu, cleanup, work in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extracted menu, cleanup, work in progress" />
+    <MESSAGE value="Cleanup, + front fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup, + front fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="183" width="800" height="675" key="#Images" timestamp="1604493762310">
@@ -113,10 +117,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604495588553" />
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604500158438">
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604517716784">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604500158438" />
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604517716784" />
     <state x="182" y="89" width="1536" height="863" key="DiffContextDialog" timestamp="1604500130565">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -125,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1604478667359" />
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604500159412">
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604517718832">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604500159412" />
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604517718832" />
     <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog" timestamp="1604499032650">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

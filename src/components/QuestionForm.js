@@ -3,18 +3,23 @@ import {Col, Form, FormGroup, Input} from "reactstrap/lib";
 import Row from "reactstrap/lib/Row";
 import Label from "reactstrap/lib/Label";
 import {DelayedButton} from "./DelayedButton";
+import QuestionServices from "../services/questionServices";
+import {ToastContainer} from "react-toastify";
 
 function QuestionForm() {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
-    const [phoneNumber, setPhoneNumber] = useState('');
+    const [phone, setPhone] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    const submit = () => {
+    const submit = async () => {
         const data = {
-            firstName, lastName, email, phoneNumber, message
+            firstName, lastName, email, phone, message
         }
+
+        const resp = await QuestionServices.create(data);
+        console.log('re', resp)
         console.log(data)
     }
 
@@ -50,7 +55,7 @@ function QuestionForm() {
                     <Input name="phone"
                            placeholder="Phone"
                            onChange={({target}) => {
-                               setPhoneNumber(target.value);
+                               setPhone(target.value);
                            }}
                     />
                 </FormGroup>
