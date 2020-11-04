@@ -1,5 +1,8 @@
 .question-list {
-  height: 600px;
+  //height: 600px;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
 }
 
 .title-block {
@@ -16,6 +19,8 @@
 .question {
   font-family: Roboto Mono;
   width: 777px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
 
   .title {
     font-weight: bold;
