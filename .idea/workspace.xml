@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="">
+    <list default="true" id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="Merge branch 'master' of github.com:zyflow/awave-test into main&#10;&#10;# Conflicts:&#10;#&#9;README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/Menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/Menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/QuestionForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/QuestionForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QuestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QuestionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useQuestionsFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useQuestionsFetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/questionServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/questionServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +14,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -140,10 +143,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604495588553" />
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604524145027">
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604565032000">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604524145027" />
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604565032000" />
     <state x="182" y="89" width="1536" height="863" key="DiffContextDialog" timestamp="1604500130565">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -152,14 +155,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1604478667359" />
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604524146568">
+    <state x="182" y="89" width="1536" height="863" key="MergeDialog" timestamp="1604565081579">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604524146568" />
-    <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog" timestamp="1604499032650">
+    <state x="182" y="89" width="1536" height="863" key="MergeDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604565081579" />
+    <state x="671" y="241" width="567" height="560" key="MultipleFileMergeDialog" timestamp="1604565081580">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604499032650" />
+    <state x="671" y="241" width="567" height="560" key="MultipleFileMergeDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604565081580" />
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604564908282">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604564908282" />
+    <state x="746" y="316" width="553" height="409" key="git4idea.merge.GitPullDialog" timestamp="1604565121235">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="746" y="316" width="553" height="409" key="git4idea.merge.GitPullDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604565121235" />
     <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604563564268">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
