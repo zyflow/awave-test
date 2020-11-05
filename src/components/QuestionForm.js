@@ -4,7 +4,6 @@ import Row from "reactstrap/lib/Row";
 import Label from "reactstrap/lib/Label";
 import {DelayedButton} from "./DelayedButton";
 import QuestionServices from "../services/questionServices";
-import {ToastContainer} from "react-toastify";
 
 function QuestionForm() {
     const [firstName, setFirstName] = useState('');
@@ -19,20 +18,42 @@ function QuestionForm() {
         }
 
         const resp = await QuestionServices.create(data);
-        console.log('re', resp)
-        console.log(data)
+
+        if (resp && resp.data && resp.data.status === 'ok') {
+            setTimeout(() => {
+                setFirstName('');
+                setLastName('');
+                setPhone('');
+                setEmail('');
+                setMessage('');
+            }, 500)
+        }
+    }
+
+    const checkIfFilled = (value, elem) => {
+        if (!value) {
+            elem.classList.add('alert-danger')
+        }
+
+        if (value) {
+            elem.classList.remove('alert-danger')
+        }
     }
 
 
     return <Form className='form-container'>
         <Row>
             <Col md={6}>
-                <FormGroup>
+                <FormGroup >
                     <Label htmlFor='firstName'>First name</Label>
                     <Input name="firstName"
                            placeholder="First name"
+                           value={firstName}
                            onChange={({target}) => {
                                setFirstName(target.value);
+                           }}
+                           onBlur={(elem) => {
+                               checkIfFilled(elem.target.value, elem.target)
                            }}
                     />
                 </FormGroup>
@@ -41,9 +62,13 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='lastName'>Last name</Label>
                     <Input name="lastName"
+                           value={lastName}
                            placeholder="Last name"
                            onChange={({target}) => {
                                setLastName(target.value);
+                           }}
+                           onBlur={(elem) => {
+                               checkIfFilled(elem.target.value, elem.target)
                            }}
                     />
                 </FormGroup>
@@ -53,9 +78,13 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='phone'>Phone number</Label>
                     <Input name="phone"
+                           value={phone}
                            placeholder="Phone"
                            onChange={({target}) => {
                                setPhone(target.value);
+                           }}
+                           onBlur={(elem) => {
+                               checkIfFilled(elem.target.value, elem.target)
                            }}
                     />
                 </FormGroup>
@@ -64,9 +93,13 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='email'>Email</Label>
                     <Input name="email"
+                           value={email}
                            placeholder="Email"
                            onChange={({target}) => {
                                setEmail(target.value);
+                           }}
+                           onBlur={(elem) => {
+                               checkIfFilled(elem.target.value, elem.target)
                            }}
                     />
                 </FormGroup>
@@ -76,6 +109,7 @@ function QuestionForm() {
                 <FormGroup>
                     <Label htmlFor='message'>Message</Label>
                     <Input type="textarea" name="message" id="message"
+                           value={message}
                            placeholder="Message"
                            onChange={({target}) => {
                                setMessage(target.value);

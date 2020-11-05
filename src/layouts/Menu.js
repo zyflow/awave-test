@@ -5,12 +5,12 @@ function Menu({currentMenuItem, setCurrentMenuItem}) {
 
     return  <Row>
         <Col className='d-none d-sm-block col-auto'>
-            <a href="/" className={currentMenuItem === 'contact' ? 'selected' : ''}
+            <a href="/" className={currentMenuItem === 'contact' || currentMenuItem === '' ? 'selected' : ''}
                onClick={() => setCurrentMenuItem('contact')}>Contact</a>
         </Col>
         <Col className='d-none d-sm-block col-auto'>
-            <a href="/submissions" className={currentMenuItem === 'submission' ? 'selected' : ''}
-            onClick={() => setCurrentMenuItem('submission')}>Submission</a>
+            <a href="/submissions" className={currentMenuItem === 'submissions' ? 'selected' : ''}
+            onClick={() => setCurrentMenuItem('submissions')}>Submission</a>
         </Col>
     </Row>
 }

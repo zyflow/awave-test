@@ -18,13 +18,25 @@
 
   a:hover {
     color: black;
-    border-bottom: 3px solid orange;
     text-decoration: none;
+
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #F4962B, #D417B7);
+  }
+
+  a.no-decoration:hover {
+    border: none;
   }
 
   a.selected {
     color: black;
-    border-bottom: 3px solid orange;
     text-decoration: none;
+
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #F4962B, #D417B7);
   }
 }

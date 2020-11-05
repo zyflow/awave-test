@@ -11,13 +11,14 @@ export default class QuestionServices {
             article,
         ).then(resp => {
             toast.success('Created')
+
+            return resp;
         }).catch(resp => {
             // const errors = resp.response.data.errors;
             const errorStr = extractLaravelErrors(resp)
             toast.error(errorStr)
         });
 
-        console.log('??', response)
         return response;
     }
 }

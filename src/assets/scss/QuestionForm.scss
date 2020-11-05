@@ -46,12 +46,12 @@
 
 .start {
    display: flex;
-   justify-content: start;
+   justify-content: flex-start;
  }
 
 .end {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 label {

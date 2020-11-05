@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useQuestionsFetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/QuestionList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/QuestionList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/Menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/Menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/QuestionForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/QuestionForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/QuestionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useQuestionsFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useQuestionsFetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/questionServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/questionServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604478492294</updated>
       <workItem from="1604478493526" duration="22312000" />
+      <workItem from="1604558437744" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="Initial + layout">
       <created>1604498902382</created>
@@ -132,10 +140,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604495588553" />
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604522734134">
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604524145027">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604522734134" />
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604524145027" />
     <state x="182" y="89" width="1536" height="863" key="DiffContextDialog" timestamp="1604500130565">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -144,17 +152,17 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1604478667359" />
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604522734950">
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604524146568">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604522734950" />
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604524146568" />
     <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog" timestamp="1604499032650">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604499032650" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604520999879">
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604563564268">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1604520999879" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1604563564268" />
   </component>
 </project>

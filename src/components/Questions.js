@@ -5,6 +5,5 @@ export function Questions({question}) {
             <p className='pretext'>{question.phone}  |  {question.email}</p>
             <p className='question-text'>{question.message}</p>
         </div>
-
     );
 }

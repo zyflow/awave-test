@@ -7,12 +7,7 @@ import Loader from "./Loader";
 
 
 function QuestionList() {
-
     const questions = useQuestionsFetch()
-
-    if (questions.loading === false) {
-        console.log(questions.data)
-    }
 
     return  <div className='question-list mt-5 '>
         <Container>
@@ -24,9 +19,8 @@ function QuestionList() {
             </Row>
             <Row>
                 {questions.loading ? <Loader /> : (
-                        questions.data.map(question => {
-                            console.log('....', question)
-                            return <Questions question={question} />
+                        questions.data.map((question, key) => {
+                            return <Questions key={key} question={question} />
                         })
                 )
                 }
