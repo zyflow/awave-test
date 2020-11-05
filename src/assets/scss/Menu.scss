@@ -1,0 +1,42 @@
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 1480px;
+  align-items: center;
+
+
+  a {
+    font-family: "Roboto Mono";
+    color: black;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: none;
+
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #F4962B, #D417B7);
+  }
+
+  a.no-decoration:hover {
+    border: none;
+  }
+
+  a.selected {
+    color: black;
+    text-decoration: none;
+
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #F4962B, #D417B7);
+  }
+}

@@ -1,0 +1,62 @@
+
+.form-container {
+  background-color: #FFFFFF;
+  font-family: Roboto Mono;
+  padding: 85px;
+  width: 980px;
+}
+
+.custom-container-image {
+  position: relative;
+  background: url('../images/wave-reverted.png') no-repeat  center;
+  background-color: #C4C4C4;
+  background-position: left top;
+  width: 1480px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-container {
+  width: 100%;
+  min-height: 500px;
+  padding: 0 !important;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content {
+  padding: 45px;
+  width: 980px;
+}
+
+
+.stockMan {
+  background: url('../images/stock-man.svg') 0 0 repeat;
+}
+
+
+#message {
+  height: 200px;
+}
+
+.start {
+   display: flex;
+   justify-content: flex-start;
+ }
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}

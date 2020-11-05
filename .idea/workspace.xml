@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/Menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/Menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/QuestionForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/QuestionForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuestionForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuestionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useQuestionsFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useQuestionsFetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/questionServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/questionServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jolnXIhHr8tddIhWa9eSQZEmFr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/scss" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/layouts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="570fec93-ba84-4ab1-bd46-a036814b45ca" name="Default Changelist" comment="" />
+      <created>1604478492294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604478492294</updated>
+      <workItem from="1604478493526" duration="22312000" />
+      <workItem from="1604558437744" duration="5771000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial + layout">
+      <created>1604498902382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604498902382</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial + layout">
+      <created>1604499037559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604499037559</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Extracted menu, cleanup, work in progress">
+      <created>1604500158492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604500158492</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cleanup, + front fix">
+      <created>1604517716877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604517716877</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Backend validation errors.">
+      <created>1604520505839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604520505839</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Layout list + react dom add">
+      <created>1604522734214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604522734214</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial + layout" />
+    <MESSAGE value="Extracted menu, cleanup, work in progress" />
+    <MESSAGE value="Cleanup, + front fix" />
+    <MESSAGE value="Backend validation errors." />
+    <MESSAGE value="Layout list + react dom add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout list + react dom add" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="183" width="800" height="675" key="#Images" timestamp="1604493762310">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="183" width="800" height="675" key="#Images/0.0.1920.1044@0.0.1920.1044" timestamp="1604493762310" />
+    <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604495588553">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="693" y="272" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604495588553" />
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2" timestamp="1604524145027">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="561" y="116" width="788" height="810" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1604524145027" />
+    <state x="182" y="89" width="1536" height="863" key="DiffContextDialog" timestamp="1604500130565">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="182" y="89" width="1536" height="863" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604500130565" />
+    <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl" timestamp="1604478667359">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="743" y="280" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1604478667359" />
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1604524146568">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="258" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1604524146568" />
+    <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog" timestamp="1604499032650">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="746" y="316" width="427" height="409" key="git4idea.merge.GitPullDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1604499032650" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604563564268">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1604563564268" />
+  </component>
+</project>
